@@ -26,15 +26,16 @@ function loadEvents(page = 0) {
           }" target="_blank">
             <div class="event-box">
               <img
+                height="186px"
                 loading="lazy"
-                src="${events[i]._source.poster.large}"
-                width="200px"
+                src="${events[i]._source.poster.medium}"
+                width="140px"
                 alt="evento ${events[i]._source.title}"
               />
-              <p class="title">${events[i]._source.title}</p>
               <p class="date">${new Intl.DateTimeFormat("pt-BR", {
                 dateStyle: "short"
               }).format(date)}</p>
+              <p class="title">${events[i]._source.title}</p>
             </div>
           </a>
         `);

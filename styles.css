@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 #events a {
@@ -15,7 +16,7 @@ body {
 .event-box {
   margin: 20px 0 0 20px;
   text-align: center;
-  width: 200px;
+  width: 140px;
 }
 
 .event-box img {
@@ -25,12 +26,12 @@ body {
 
 .event-box .title {
   color: rgba(0, 0, 0, 0.9);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .event-box .date {
   color: rgba(0, 0, 0, 0.9);
-  font-size: 16px;
+  font-size: 10px;
   font-weight: bold;
 }
