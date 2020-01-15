@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#events {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#events a {
+  text-decoration: none;
+}
+
+.event-box {
+  margin: 20px 0 0 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.event-box img {
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.event-box .title {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event-box .date {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
