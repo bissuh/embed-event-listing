@@ -2,7 +2,7 @@ let queryParams = getUrlVars();
 
 var query = "";
 for (var prop in queryParams) {
-  query += `&${prop}=${queryParams[prop]}`;
+  query += prop != "wmode" ? `&${prop}=${queryParams[prop]}` : "";
 }
 
 var eventSearchUrl = `https://api.ingresse.com/v2/events/search/1/?${query}&from=now-6h&size=600&offset=`;
